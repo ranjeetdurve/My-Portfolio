@@ -144,3 +144,26 @@ body {
   .btn:hover {
     background-color: #0056b3;
   }
+
+  #career {
+    background-color: #f3f3f3;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #career h2, #career h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  #career p, #career ul {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  #career ul {
+    padding-left: 20px;
+  }
+  
