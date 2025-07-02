@@ -1,93 +1,91 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style-v2.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ranjeet's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<html>
-    <body>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#career">Career</a></li>
-        </ul>
-      </nav>
-        <header>
-          <h1>Hi, I'm Ranjeet Kumar</h1>
-          <button onclick="showMessage()">Click Me</button>
-          <p id="output"></p>
-          <p>Welcome to My Profile</p>
-        </header>
-        <section id="about">
-          <h2>About Me</h2>
-          <p>I am Ranjeet Kumar, a final-year B.Tech student passionate about web development and AI. I love working with Python, Streamlit, and MERN stack technologies.</p>
-        </section>
-        <a href="resume.pdf" download class="btn">Download Resume</a> <!-- ✅ Button added -->
-        <section id="projects">
-          <h2>My Projects</h2>
-          <div class="project">
-            <h3>AUTOMATED BANK CHEQUE PROCESSOR</h3>
-            <p>Built with Python and Streamlit for managing tasks efficiently.</p>
-          </div>
-          <div class="project">
-            <h3>School Management System</h3>
-            <p>MERN stack project deployed on Vercel with MongoDB Atlas.</p>
-          </div>
-          <!-- Career Section -->
-<section id="career">
-  <h2>Career Objective</h2>
-  <p>
-    My career goal is to become a skilled full-stack developer, with a focus on AI-powered web applications. 
-    I aim to work in a collaborative environment where I can continuously learn and contribute to innovative projects.
-  </p>
+<body>
 
-  <h3>Education</h3>
-  <ul>
-    <li><strong>B.Tech in ECE</strong> – XYZ University (2021–2025)</li>
-    <li><strong>12th</strong> – ABC School (2020)</li>
-    <li><strong>10th</strong> – DEF School (2018)</li>
-  </ul>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#career">Career</a></li>
+    </ul>
+  </nav>
 
-  <h3>Certifications</h3>
-  <ul>
-    <li>Python for Everybody – Coursera</li>
-    <li>Machine Learning – Infosys Springboard</li>
-    <li>Frontend Development – FreeCodeCamp</li>
-  </ul>
-</section>
-          <section id="skills">
-            <h2>Skills</h2>
-            <ul class="skills-list">
-              <li>💻 Python</li>
-              <li>🌐 HTML & CSS</li>
-              <li>⚙️ JavaScript</li>
-              <li>🧠 Machine Learning</li>
-              <li>🗂️ MongoDB</li>
-              <li>⚛️ React.js</li>
-            </ul>
-          </section>
-          <section id="contact">
-            <h2>Contact Me</h2>
-            <form id="contact-form">
-              <input type="text" name="from_name" placeholder="Your Name" required />
-              <input type="email" name="user_email" placeholder="Your Email" required />
-              <textarea name="message" placeholder="Your Message" required></textarea>
-              <button type="submit">Send Message</button>
-            </form>
-            <p id="msg"></p>
-          </section>
-          
-        </section>
-        <script src="script.js"></script>
-        <section>
-          <h2>Projects</h2>
-          <ul>
-            <li>AUTOMATED BANK CHEQUE PROCESSOR</li>
-            <li>School Management System</li>
-          </ul>
-        </section>
-      </body>
+  <header>
+    <h1>Hi, I'm Ranjeet Kumar</h1>
+    <button onclick="showMessage()">Click Me</button>
+    <p id="output"></p>
+    <p>Welcome to My Profile</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am Ranjeet Kumar, a final-year B.Tech student passionate about web development and AI. I love working with Python, Streamlit, and MERN stack technologies.</p>
+  </section>
+
+  <a href="resume.pdf" download class="btn">Download Resume</a>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project">
+      <h3>AUTOMATED BANK CHEQUE PROCESSOR</h3>
+      <p>Built with Python and Streamlit for managing tasks efficiently.</p>
+    </div>
+    <div class="project">
+      <h3>School Management System</h3>
+      <p>MERN stack project deployed on Vercel with MongoDB Atlas.</p>
+    </div>
+  </section>
+
+  <section id="career">
+    <h2>Career Objective</h2>
+    <p>My career goal is to become a skilled full-stack developer, with a focus on AI-powered web applications. I aim to work in a collaborative environment where I can continuously learn and contribute to innovative projects.</p>
+
+    <h3>Education</h3>
+    <ul>
+      <li><strong>B.Tech in ECE</strong> – XYZ University (2021–2025)</li>
+      <li><strong>12th</strong> – ABC School (2020)</li>
+      <li><strong>10th</strong> – DEF School (2018)</li>
+    </ul>
+
+    <h3>Certifications</h3>
+    <ul>
+      <li>Python for Everybody – Coursera</li>
+      <li>Machine Learning – Infosys Springboard</li>
+      <li>Frontend Development – FreeCodeCamp</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>💻 Python</li>
+      <li>🌐 HTML & CSS</li>
+      <li>⚙️ JavaScript</li>
+      <li>🧠 Machine Learning</li>
+      <li>🗂️ MongoDB</li>
+      <li>⚛️ React.js</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" name="from_name" placeholder="Your Name" required />
+      <input type="email" name="user_email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="msg"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
 </html>

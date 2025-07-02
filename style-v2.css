@@ -81,7 +81,7 @@ body {
   
   nav {
     background-color: #b01c1c;
-    padding: 1000px;
+    padding: 10px;
     position: sticky;
     top: 0;
     z-index: 1000;
