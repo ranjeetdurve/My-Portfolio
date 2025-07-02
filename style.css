@@ -95,27 +95,7 @@ body {
     margin: 0;
     padding: 0;
   }
-
-  nav ul li {
-    display: inline-block;       /* horizontal layout */
-    gap: 3000px;
-    margin-right: 40px;          /* ✅ right side me space */
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-
-  nav ul {
-    display: flex;        /* horizontal layout */
-    gap: 40px;            /* 🔥 gap between menu items */
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
+ 
   nav ul li a {
     text-decoration: none;
     color: #333;
