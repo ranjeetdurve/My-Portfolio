@@ -91,7 +91,7 @@ body {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 40px;
     margin: 0;
     padding: 0;
   }
@@ -99,7 +99,7 @@ body {
   nav ul li {
     display: inline-block;       /* horizontal layout */
     gap: 3000px;
-    margin-right: 20px;          /* ✅ right side me space */
+    margin-right: 40px;          /* ✅ right side me space */
   }
   
   nav ul li a {
@@ -110,7 +110,7 @@ body {
 
   nav ul {
     display: flex;        /* horizontal layout */
-    gap: 30px;            /* 🔥 gap between menu items */
+    gap: 40px;            /* 🔥 gap between menu items */
     list-style: none;
     padding: 0;
     margin: 0;
@@ -165,5 +165,30 @@ body {
   
   #career ul {
     padding-left: 20px;
+  }
+
+  #contact {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #contact form input,
+  #contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #contact form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
   }
   
